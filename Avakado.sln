@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{10D85286-4D5D-4CCF-B8E4-B984040A461C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{2CC8E57E-9EB3-4FBF-9B97-0511F3DC3383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{89E34583-2C9A-4CD5-99DE-547252EC4F00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EAE1618B-1B49-4CD1-A3AB-5320CAA63A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avakado.Services.CouponApi", "Avakado.Services.CouponApi\Avakado.Services.CouponApi.csproj", "{B6728DC3-297B-46C4-A089-DD9007E5A292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6728DC3-297B-46C4-A089-DD9007E5A292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6728DC3-297B-46C4-A089-DD9007E5A292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6728DC3-297B-46C4-A089-DD9007E5A292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6728DC3-297B-46C4-A089-DD9007E5A292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6728DC3-297B-46C4-A089-DD9007E5A292} = {EAE1618B-1B49-4CD1-A3AB-5320CAA63A7B}
+	EndGlobalSection
+EndGlobal
